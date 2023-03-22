@@ -1,18 +1,15 @@
 Open terminal.
 
-Go to xp_sophia folder (e.g. "cd xp_sophia" command line).
+Clone this repo and go into it (e.g. `cd <path>` command line).
 
 Activate virtual environment: 
-> source env_sophia/bin/activate
+$ source env_sophia/bin/activate
 
 Download required packages:
-> pip install -r requirements.txt
+$ pip install -r requirements.txt
 
 Execute script:
-> python openCV_simple_detection.py
+$ python openCV_simple_detection.py
 
 At the end, deactivate virtual environment:
-> deactivate
-
-
-
+$ deactivate
